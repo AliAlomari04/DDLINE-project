@@ -720,7 +720,10 @@ body {
     font-size: 1.3rem;
   }
   .views-image{
-    width: 80vw;
+    width: 95vw;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
   }
   .steps{
     width: 90vw;
