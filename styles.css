@@ -720,10 +720,16 @@ body {
     font-size: 1.3rem;
   }
   .views-image{
-    width: 95vw;
-    max-width: 100%;
-    height: 70vw;
-    object-fit: cover;
+   width: 85vw;
+    height: auto;
+    max-width: 350px;
+    max-height: 250px;
+    object-fit: contain;
+    margin: 20px auto;
+    display: block;
+    image-rendering: crisp-edges;
+    -webkit-image-rendering: crisp-edges;
+    -moz-image-rendering: crisp-edges;
   }
   .steps{
     width: 90vw;
