@@ -720,10 +720,10 @@ body {
     font-size: 1.3rem;
   }
   .views-image{
-   width: 85vw;
+   width: 100vw;
     height: auto;
     max-width: 350px;
-    max-height: 250px;
+    max-height: 300px;
     object-fit: contain;
     margin: 20px auto;
     display: block;
